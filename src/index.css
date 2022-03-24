@@ -1,5 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bungee", cursive;
+  text-align: center;
+  font-size: 68px;
+}
+
+.scoreboard {
+  font-size: 22px;
+  line-height: 35px;
+  margin: -10px 0 50px 0;
+}
+
+.img-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  grid-auto-rows: minmax(250px, auto);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
+
+.fa-github {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
 }

@@ -16,7 +16,7 @@ const Gameboard = () => {
   console.log(teams);
 
   return (
-    <div>
+    <div className="img-container">
       {teamArray.map((team) => (
         <Card key={team} teamNo={team} />
       ))}
