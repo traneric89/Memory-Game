@@ -8,13 +8,21 @@ import Footer from "./components/Footer";
 const App = () => {
   const [currentScore, setCurrentScore] = useState("");
   const [highScore, setHighScore] = useState("");
-  const [imageNo, setImageNo] = useState();
+  const [imageNos, setImageNos] = useState([]);
+
+  const cardClicked = (teamNo) => {
+    console.log(teamNo);
+    setImageNos([...imageNos, teamNo]);
+    console.log(imageNos);
+  };
 
   return (
     <div>
-      <Header />
-      <Scoreboard />
-      <Gameboard />
+      <div className="background">
+        <Header />
+        <Scoreboard />
+        <Gameboard onClick={cardClicked} />
+      </div>
       <Footer />
     </div>
   );

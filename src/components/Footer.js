@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>Copyright © 2021 Eric Tran</p>
       <a href="https://github.com/traneric89" target="_blank">
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a>
     </footer>
   );

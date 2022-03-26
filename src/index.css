@@ -6,22 +6,27 @@
   padding: 0;
   font-family: "Rubik", sans-serif;
   text-align: center;
+  background-color: rgb(259, 251, 228);
 }
 
 h1 {
   font-family: "Bungee", cursive;
   text-align: center;
   font-size: 68px;
+  width: 100%;
+  color: #373d3f;
 }
 
 .scoreboard {
   font-size: 22px;
   line-height: 35px;
   margin: -10px 0 50px 0;
+  color: #373d3f;
 }
 
 .img-container {
-  width: 80%;
+  width: 90%;
+  height: auto;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -44,12 +49,19 @@ h1 {
   color: white;
 }
 
+.footer p,
+i {
+  background-color: rgb(56, 55, 55);
+}
+
 .fa-github {
   color: white;
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
+  background-color: rgb(56, 55, 55);
 }
 
 .fa-github:hover {
   transform: rotate(360deg) scale(1.2);
+  background-color: rgb(56, 55, 55);
 }
