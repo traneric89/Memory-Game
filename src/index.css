@@ -31,7 +31,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
-  grid-auto-rows: minmax(250px, auto);
+  justify-items: center;
 }
 
 .footer {
@@ -64,4 +64,21 @@ i {
 .fa-github:hover {
   transform: rotate(360deg) scale(1.2);
   background-color: rgb(56, 55, 55);
+}
+
+@media screen and (max-width: 1200px) {
+  .img-container {
+    gap: 30px;
+  }
+  .images {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
 }
