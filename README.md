@@ -6,3 +6,7 @@ Built using:
 - React (UseState + UseEffect)
 
 :rocket: [ Live Demo!](https://traneric89.github.io/Memory-Game/)
+
+
+https://user-images.githubusercontent.com/55358375/162638106-3e741ff4-241b-4ed3-a997-5431ad331a00.mp4
+
